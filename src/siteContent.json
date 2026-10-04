@@ -1,0 +1,32 @@
+{
+  "name": "Uzair Ahmad",
+  "title": "Graphic & UI/UX Designer",
+  "tagline": "Graphic Designer Based in Pakistan.",
+  "heroBio": "Crafting high-converting digital product interfaces, bold brand identities, and visually stunning creative assets. Blending engineering precision with artistic vision to transform ambitious ideas into unforgettable digital experiences.",
+  "age": 25,
+  "location": "Peshawar, Pakistan",
+  "address": "Warsak Road, Peshawar",
+  "phone": "+92 313-9127750",
+  "email": "auzair290@gmail.com",
+  "instagram": "@uzair.creates1",
+  "instagramUrl": "https://instagram.com/uzair.creates1",
+  "linkedin": "Uzair Ahmad",
+  "linkedinUrl": "https://www.linkedin.com/in/uzair-creates-695862427/",
+  "web3formsKey": "",
+  "bio": "I'm a 25-year-old graphic designer from Peshawar, Pakistan with expertise in Photoshop, Figma, Premier Pro and Capcut. I am detail-oriented and passionate about pushing boundaries in visually attractive designs.",
+  "stats": [
+    { "num": "100+", "label": "Projects Completed" },
+    { "num": "50+", "label": "Industries Covered" },
+    { "num": "4+", "label": "Years of Experience" }
+  ],
+  "skills": [
+    "Photoshop",
+    "Figma",
+    "Premier Pro",
+    "Capcut",
+    "Web Design",
+    "UI Design",
+    "Branding",
+    "Wireframing"
+  ]
+}

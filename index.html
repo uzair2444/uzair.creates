@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Uzair Ahmad — Graphic Designer Portfolio</title>
+  <meta name="description"
+    content="Professional portfolio of Uzair Ahmad, a 25-year-old Graphic & UI/UX Designer based in Peshawar, Pakistan specializing in graphic design, web design, UI design, and video editing." />
+  <meta property="og:title" content="Uzair Ahmad — Graphic Designer Portfolio" />
+  <meta property="og:description"
+    content="Professional portfolio of Uzair Ahmad, a 25-year-old Graphic & UI/UX Designer based in Peshawar, Pakistan specializing in graphic design, web design, UI design, and video editing." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Playfair+Display:ital,wght@0,600;1,500;1,600&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,500;1,600&display=swap"
+    rel="stylesheet">
+  <script>
+    document.documentElement.classList.add('dark');
+  </script>
+  <script>
+    (function () {
+      // Defensive error listener for any third-party/iframe runner attempting to assign window.fetch
+      window.addEventListener('error', function (event) {
+        if (event && event.message && event.message.indexOf('Cannot set property fetch of #<Window>') !== -1) {
+          event.preventDefault();
+          event.stopImmediatePropagation();
+          return true;
+        }
+      }, true);
+
+      try {
+        var _currentFetch = window.fetch;
+        var getFetch = function () {
+          return _currentFetch;
+        };
+        var setFetch = function (val) {
+          _currentFetch = val;
+        };
+
+        // 1. Define getter and setter on Window.prototype (where fetch getter is located in modern browsers)
+        if (typeof Window !== 'undefined' && Window.prototype) {
+          try {
+            Object.defineProperty(Window.prototype, 'fetch', {
+              get: getFetch,
+              set: setFetch,
+              configurable: true,
+              enumerable: true
+            });
+          } catch (e1) { }
+        }
+
+        // 2. Define getter and setter on window object directly
+        try {
+          Object.defineProperty(window, 'fetch', {
+            get: getFetch,
+            set: setFetch,
+            configurable: true,
+            enumerable: true
+          });
+        } catch (e2) { }
+
+        // 3. Walk prototype chain to catch any intermediate WindowProperties layers
+        try {
+          var proto = Object.getPrototypeOf(window);
+          while (proto && proto !== Object.prototype) {
+            var desc = Object.getOwnPropertyDescriptor(proto, 'fetch');
+            if (desc && (!desc.set || !desc.writable)) {
+              Object.defineProperty(proto, 'fetch', {
+                get: getFetch,
+                set: setFetch,
+                configurable: true,
+                enumerable: true
+              });
+            }
+            proto = Object.getPrototypeOf(proto);
+          }
+        } catch (e3) { }
+      } catch (e) { }
+    })();
+  </script>
+</head>
+
+<body class="bg-[#0B0C10] text-[#F3F4F6] antialiased selection:bg-[#FF0000] selection:text-white">
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>

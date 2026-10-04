@@ -1,0 +1,50 @@
+[
+  {
+    "id": "inq_1790700142824",
+    "date": "2026-09-29T16:42:22.824Z",
+    "formattedDate": "9/29/2026, 9:42:22 PM",
+    "name": "ZEUS",
+    "email": "zeusgaming2444@gmail.com",
+    "phone": "03109741743",
+    "service": "UI/UX Design",
+    "budget": "Under $1,000",
+    "country": "Pakistan",
+    "message": "hi i want to hire"
+  },
+  {
+    "id": "inq_1790699465415",
+    "date": "2026-09-29T16:31:05.415Z",
+    "formattedDate": "9/29/2026, 9:31:05 PM",
+    "name": "ZEUS",
+    "email": "zeusgaming2444@gmail.com",
+    "phone": "03109741743",
+    "service": "UI/UX Design",
+    "budget": "Under $1,000",
+    "country": "Pakistan",
+    "message": "hi i want to hire you"
+  },
+  {
+    "id": "inq_1790699434339",
+    "date": "2026-09-29T16:30:34.339Z",
+    "formattedDate": "9/29/2026, 9:30:34 PM",
+    "name": "ZEUS",
+    "email": "zeusgaming2444@gmail.com",
+    "phone": "03109741743",
+    "service": "UI/UX Design",
+    "budget": "Under $1,000",
+    "country": "Pakistan",
+    "message": "hi i want to hire you"
+  },
+  {
+    "id": "inq_1790699174984",
+    "date": "2026-09-29T16:26:14.984Z",
+    "formattedDate": "9/29/2026, 9:26:14 PM",
+    "name": "Sara Khan",
+    "email": "sara@example.com",
+    "phone": "+92 300 9876543",
+    "service": "UI/UX Design",
+    "budget": ",000 – ,000",
+    "country": "Pakistan",
+    "message": "Hi Uzair, I need a modern dark-mode mobile app designed in Figma."
+  }
+]

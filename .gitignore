@@ -1,0 +1,14 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+Apply-GamingOptimizations.ps1
+RUN_AS_ADMIN_OPTIMIZE.bat
+optimization.txt
+*.ps1
+*.bat
+

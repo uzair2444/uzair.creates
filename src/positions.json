@@ -1,0 +1,41 @@
+{
+  "elementOffsets": {
+    "hero": {
+      "hero-heading": {
+        "x": -35,
+        "y": 20
+      },
+      "hero-buttons": {
+        "x": -20,
+        "y": 30
+      },
+      "hero-badge": {
+        "x": -25,
+        "y": 0
+      },
+      "hero-bio": {
+        "x": -30,
+        "y": 5
+      },
+      "hero-logo": {
+        "x": 0,
+        "y": 20
+      }
+    },
+    "projects": {
+      "project-tags-beauty-ecommerce-app": {
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "sectionOrder": [
+    "hero",
+    "services",
+    "projects",
+    "journey",
+    "about",
+    "contact",
+    "faq"
+  ]
+}
