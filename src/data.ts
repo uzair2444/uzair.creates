@@ -76,7 +76,8 @@ export const PROJECTS: Project[] = [
       './post-design/post-design-2.jpg',
       './post-design/post-design-3.jpg',
       './post-design/post-design-5.jpg',
-      './post-design/post-design-4.jpg'
+      './post-design/post-design-4.jpg',
+      './post-design/post-design-6.png'
     ]
   },
   {
